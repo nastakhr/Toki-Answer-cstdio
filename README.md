@@ -1,2 +1,4 @@
-# Toki-Answer-cstdio-
-The answer of tlx toki; c++ webcourse
+# Toki-Answer-cstdio
+
+this repisotery will help you to answering the tlx toki problem
+enjoy and goodluck!
