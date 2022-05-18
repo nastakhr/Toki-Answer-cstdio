@@ -1,0 +1,23 @@
+#include<cstdio>
+#include<cmath>
+
+int main (){	
+	long int y,z;
+	double n;
+	scanf("%lf",&n);
+	
+	if (n == trunc(n)) {
+		n = trunc(n);
+		printf("%.0lf %.0lf\n",n, n);
+	} 
+	else if (n < 0) {
+		y = trunc(n);
+		z = y - 1;
+		printf("%ld %ld\n", z, y);
+	} 
+	else if (n>0) {
+		y = trunc(n);
+		z = y + 1;
+		printf("%ld %ld\n", y, z);
+	}
+}
