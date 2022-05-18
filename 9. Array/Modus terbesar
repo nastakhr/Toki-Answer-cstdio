@@ -1,0 +1,19 @@
+#include<cstdio>
+
+int main () {
+  int a, arr[10001]= {0}, max=0, ans, l;
+
+  scanf("%d", &a);
+  for (int i = 0; i < a; i++) {
+    scanf("%d", &l);
+    arr[l]++;
+  }
+  for (int j = 1; j <= 10000; j++) {
+    if (arr[j] >= max) {
+      max = arr[j];
+      ans = j;
+    }
+  }
+  printf("%d\n", ans);
+  return 0;
+}
