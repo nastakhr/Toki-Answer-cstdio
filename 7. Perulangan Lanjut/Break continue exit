@@ -2,6 +2,7 @@
 
 int main (){
 	int N;
+	int ERROR;
 	scanf("%d", &N);
 	
 	 for (int i=1;i<=N;i++){
@@ -14,4 +15,4 @@ int main (){
 		}
 		printf("%d\n", i);
 		}
-}	
+	}	
