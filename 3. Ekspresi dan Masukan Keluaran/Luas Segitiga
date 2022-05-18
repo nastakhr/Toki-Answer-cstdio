@@ -1,0 +1,12 @@
+#include<cstdio>
+
+int main () {
+	
+	float a, b, luas;
+	
+	scanf("%f %f\n", &a, &b);
+	
+	luas= a*b*0.5;
+	printf("%.2f\n", luas);
+	return 0;
+}
