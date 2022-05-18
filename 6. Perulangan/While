@@ -1,0 +1,14 @@
+#include <cstdio>
+
+int main() {
+  int N;
+  scanf("%d", &N);
+  int i = N;
+  
+  while (i > 0) {
+  printf("tulisan ini dicetak saat i = %d\n", i);
+  i++;
+  }
+  break;
+  printf("akhir dari program\n");
+}
