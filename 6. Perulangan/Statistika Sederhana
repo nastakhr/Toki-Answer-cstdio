@@ -1,0 +1,24 @@
+#include<cstdio>
+
+int main(){
+	int i, a, jumlah[1000], max, min;
+	scanf("%d", &a);
+	
+	for(i=1;i<=a;i++){
+		scanf("%d", &jumlah[i]);
+}
+	max = jumlah[1];
+	min = jumlah [1];
+	
+	for(i=1;i<=a;i++){
+		if (max <= jumlah[i]){
+		max = jumlah[i];
+	}
+		if(min >= jumlah[i]){
+		min = jumlah[i];
+	}
+	
+}
+printf("%d %d\n", max, min);
+	return 0;
+}
