@@ -1,0 +1,29 @@
+#include<cstdio>
+
+int main(){
+	int N;
+	int p;
+	scanf("%d", &N);
+	
+	for(int i =0;i<N;i++){		
+		scanf("%d", &p);
+		int s = 0;
+		
+		bool prime = true;
+						
+		for(int a=1;a<=p;a++){
+			if(p%a==0){
+				s++;
+				}
+				if(s>4){
+					prime = false;
+					break;
+				}			
+			}
+		if(prime){
+			printf("YA\n");
+		} else {
+			printf("BUKAN\n");
+		}
+	}
+}
