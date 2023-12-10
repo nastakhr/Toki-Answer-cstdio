@@ -1,6 +1,6 @@
 # Toki-Answer-cstdio
 
-this repisotery will help you answering the tlx toki problem with the cstdio compiler,
+this repisotery will help you answering tlx toki problem with cstdio compiler,
   
   
 enjoy and goodluck!
